@@ -1,0 +1,1263 @@
+{
+ "archive/01.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/01.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.2
+ },
+ "archive/02.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/02.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.53
+ },
+ "archive/03.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/03.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 4.27
+ },
+ "archive/04.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/04.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 3.73
+ },
+ "archive/05.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/05.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 1.67
+ },
+ "archive/06.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/06.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 3.4
+ },
+ "archive/07.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/07.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.93
+ },
+ "archive/08.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/08.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 1.93
+ },
+ "archive/09.jpg": {
+  "w": 858,
+  "h": 484
+ },
+ "archive/10.jpg": {
+  "w": 420,
+  "h": 282
+ },
+ "archive/10.mp4": {
+  "w": 420,
+  "h": 282,
+  "d": 3.53
+ },
+ "archive/11.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/11.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 1.6
+ },
+ "archive/12.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/12.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.47
+ },
+ "archive/13.jpg": {
+  "w": 858,
+  "h": 484
+ },
+ "archive/14.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/14.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 1.47
+ },
+ "archive/15.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/15.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.53
+ },
+ "archive/16.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/16.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.07
+ },
+ "archive/17.jpg": {
+  "w": 420,
+  "h": 180
+ },
+ "archive/17.mp4": {
+  "w": 420,
+  "h": 180,
+  "d": 3
+ },
+ "archive/18.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/18.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.53
+ },
+ "archive/19.jpg": {
+  "w": 858,
+  "h": 484
+ },
+ "archive/20.jpg": {
+  "w": 420,
+  "h": 210
+ },
+ "archive/20.mp4": {
+  "w": 420,
+  "h": 210,
+  "d": 2.53
+ },
+ "archive/21.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/21.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 1.53
+ },
+ "archive/22.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/22.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.67
+ },
+ "archive/23.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/23.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 6.07
+ },
+ "archive/24.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/24.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 1.87
+ },
+ "archive/25.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/25.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.73
+ },
+ "archive/26.jpg": {
+  "w": 1080,
+  "h": 608
+ },
+ "archive/26.mp4": {
+  "w": 1080,
+  "h": 608,
+  "d": 8.04
+ },
+ "archive/27.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/27.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.67
+ },
+ "archive/28.jpg": {
+  "w": 640,
+  "h": 360
+ },
+ "archive/28.mp4": {
+  "w": 640,
+  "h": 360,
+  "d": 2.67
+ },
+ "archive/29.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/29.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 1.07
+ },
+ "archive/30.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/30.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.8
+ },
+ "archive/31.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/31.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 3.07
+ },
+ "archive/32.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/32.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.47
+ },
+ "archive/33.jpg": {
+  "w": 420,
+  "h": 184
+ },
+ "archive/33.mp4": {
+  "w": 420,
+  "h": 184,
+  "d": 3.13
+ },
+ "archive/34.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/34.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 1.73
+ },
+ "archive/35.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/35.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 1.07
+ },
+ "archive/36.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/36.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 3.67
+ },
+ "archive/37.jpg": {
+  "w": 420,
+  "h": 420
+ },
+ "archive/37.mp4": {
+  "w": 420,
+  "h": 420,
+  "d": 3.27
+ },
+ "archive/38.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/38.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 3.73
+ },
+ "archive/39.jpg": {
+  "w": 420,
+  "h": 420
+ },
+ "archive/39.mp4": {
+  "w": 420,
+  "h": 420,
+  "d": 1.33
+ },
+ "archive/40.jpg": {
+  "w": 644,
+  "h": 362
+ },
+ "archive/41.jpg": {
+  "w": 420,
+  "h": 284
+ },
+ "archive/41.mp4": {
+  "w": 420,
+  "h": 284,
+  "d": 4.5
+ },
+ "archive/42.jpg": {
+  "w": 640,
+  "h": 360
+ },
+ "archive/42.mp4": {
+  "w": 640,
+  "h": 360,
+  "d": 4.08
+ },
+ "archive/43.jpg": {
+  "w": 640,
+  "h": 360
+ },
+ "archive/43.mp4": {
+  "w": 640,
+  "h": 360,
+  "d": 2.1
+ },
+ "archive/44.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/44.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 1.13
+ },
+ "archive/45.jpg": {
+  "w": 640,
+  "h": 360
+ },
+ "archive/45.mp4": {
+  "w": 640,
+  "h": 360,
+  "d": 2.93
+ },
+ "archive/46.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/46.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 1.6
+ },
+ "archive/47.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/47.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 3
+ },
+ "archive/48.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/48.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.7
+ },
+ "archive/49.jpg": {
+  "w": 420,
+  "h": 188
+ },
+ "archive/49.mp4": {
+  "w": 420,
+  "h": 188,
+  "d": 3.27
+ },
+ "archive/50.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/50.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 3.2
+ },
+ "archive/51.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/51.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 3.07
+ },
+ "archive/52.jpg": {
+  "w": 420,
+  "h": 188
+ },
+ "archive/52.mp4": {
+  "w": 420,
+  "h": 188,
+  "d": 3.07
+ },
+ "archive/53.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/53.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 5.2
+ },
+ "archive/54.jpg": {
+  "w": 1200,
+  "h": 676
+ },
+ "archive/54.mp4": {
+  "w": 1200,
+  "h": 676,
+  "d": 4
+ },
+ "archive/55.jpg": {
+  "w": 420,
+  "h": 280
+ },
+ "archive/55.mp4": {
+  "w": 420,
+  "h": 280,
+  "d": 3.33
+ },
+ "archive/56.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "archive/56.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 2.33
+ },
+ "archive/57.jpg": {
+  "w": 420,
+  "h": 748
+ },
+ "archive/57.mp4": {
+  "w": 420,
+  "h": 748,
+  "d": 3.4
+ },
+ "archive/58.jpg": {
+  "w": 800,
+  "h": 1422
+ },
+ "archive/58.mp4": {
+  "w": 800,
+  "h": 1422,
+  "d": 6.8
+ },
+ "archive/59.jpg": {
+  "w": 640,
+  "h": 640
+ },
+ "archive/59.mp4": {
+  "w": 640,
+  "h": 640,
+  "d": 4
+ },
+ "archive/60.jpg": {
+  "w": 420,
+  "h": 944
+ },
+ "archive/60.mp4": {
+  "w": 420,
+  "h": 944,
+  "d": 2.47
+ },
+ "archive/61.jpg": {
+  "w": 708,
+  "h": 398
+ },
+ "lab/early-v2v/animatediff-01.jpg": {
+  "w": 320,
+  "h": 320
+ },
+ "lab/early-v2v/animatediff-01.mp4": {
+  "w": 320,
+  "h": 320,
+  "d": 2.7
+ },
+ "lab/early-v2v/animatediff-02.jpg": {
+  "w": 320,
+  "h": 320
+ },
+ "lab/early-v2v/animatediff-02.mp4": {
+  "w": 320,
+  "h": 320,
+  "d": 2.7
+ },
+ "lab/early-v2v/animatediff-03.jpg": {
+  "w": 320,
+  "h": 320
+ },
+ "lab/early-v2v/animatediff-03.mp4": {
+  "w": 320,
+  "h": 320,
+  "d": 1.3
+ },
+ "lab/early-v2v/animatediff-04.jpg": {
+  "w": 320,
+  "h": 320
+ },
+ "lab/early-v2v/animatediff-04.mp4": {
+  "w": 320,
+  "h": 320,
+  "d": 2.7
+ },
+ "lab/early-v2v/cover.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "lab/early-v2v/cover.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 5.1
+ },
+ "lab/early-v2v/source.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "lab/early-v2v/source.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 5.2
+ },
+ "lab/embroidery/cover.jpg": {
+  "w": 420,
+  "h": 268
+ },
+ "lab/embroidery/cover.mp4": {
+  "w": 420,
+  "h": 268,
+  "d": 3.33
+ },
+ "lab/embroidery/emb-01.jpg": {
+  "w": 420,
+  "h": 224
+ },
+ "lab/embroidery/emb-01.mp4": {
+  "w": 420,
+  "h": 224,
+  "d": 3.1
+ },
+ "lab/embroidery/emb-02.jpg": {
+  "w": 420,
+  "h": 224
+ },
+ "lab/embroidery/emb-02.mp4": {
+  "w": 420,
+  "h": 224,
+  "d": 3.1
+ },
+ "lab/embroidery/emb-03.jpg": {
+  "w": 420,
+  "h": 420
+ },
+ "lab/embroidery/emb-03.mp4": {
+  "w": 420,
+  "h": 420,
+  "d": 3.1
+ },
+ "lab/embroidery/emb-04.jpg": {
+  "w": 420,
+  "h": 700
+ },
+ "lab/embroidery/emb-04.mp4": {
+  "w": 420,
+  "h": 700,
+  "d": 3.1
+ },
+ "lab/embroidery/knit-01.jpg": {
+  "w": 420,
+  "h": 780
+ },
+ "lab/embroidery/knit-01.mp4": {
+  "w": 420,
+  "h": 780,
+  "d": 2.6
+ },
+ "lab/embroidery/knit-02.jpg": {
+  "w": 420,
+  "h": 780
+ },
+ "lab/embroidery/knit-02.mp4": {
+  "w": 420,
+  "h": 780,
+  "d": 2.6
+ },
+ "lab/embroidery/knit-03.jpg": {
+  "w": 420,
+  "h": 780
+ },
+ "lab/embroidery/knit-03.mp4": {
+  "w": 420,
+  "h": 780,
+  "d": 2.6
+ },
+ "lab/embroidery/knit-04.jpg": {
+  "w": 420,
+  "h": 748
+ },
+ "lab/embroidery/knit-04.mp4": {
+  "w": 420,
+  "h": 748,
+  "d": 2.6
+ },
+ "lab/embroidery/more-01.jpg": {
+  "w": 420,
+  "h": 420
+ },
+ "lab/embroidery/more-01.mp4": {
+  "w": 420,
+  "h": 420,
+  "d": 3.1
+ },
+ "lab/embroidery/more-02.jpg": {
+  "w": 420,
+  "h": 700
+ },
+ "lab/embroidery/more-02.mp4": {
+  "w": 420,
+  "h": 700,
+  "d": 3.8
+ },
+ "lab/embroidery/still.jpg": {
+  "w": 498,
+  "h": 312
+ },
+ "lab/flux-loras/01.jpg": {
+  "w": 886,
+  "h": 886
+ },
+ "lab/flux-loras/02.jpg": {
+  "w": 420,
+  "h": 420
+ },
+ "lab/flux-loras/02.mp4": {
+  "w": 420,
+  "h": 420,
+  "d": 2.3
+ },
+ "lab/flux-loras/03.jpg": {
+  "w": 886,
+  "h": 886
+ },
+ "lab/flux-loras/04.jpg": {
+  "w": 886,
+  "h": 886
+ },
+ "lab/flux-loras/05.jpg": {
+  "w": 1024,
+  "h": 1024
+ },
+ "lab/flux-loras/06.jpg": {
+  "w": 420,
+  "h": 656
+ },
+ "lab/flux-loras/06.mp4": {
+  "w": 420,
+  "h": 656,
+  "d": 2.3
+ },
+ "lab/flux-loras/07.jpg": {
+  "w": 420,
+  "h": 420
+ },
+ "lab/flux-loras/07.mp4": {
+  "w": 420,
+  "h": 420,
+  "d": 2.3
+ },
+ "lab/flux-loras/cover.jpg": {
+  "w": 1024,
+  "h": 1024
+ },
+ "lab/liquid-morphing/01.jpg": {
+  "w": 420,
+  "h": 660
+ },
+ "lab/liquid-morphing/01.mp4": {
+  "w": 420,
+  "h": 660,
+  "d": 3.1
+ },
+ "lab/liquid-morphing/02.jpg": {
+  "w": 420,
+  "h": 630
+ },
+ "lab/liquid-morphing/02.mp4": {
+  "w": 420,
+  "h": 630,
+  "d": 3.1
+ },
+ "lab/liquid-morphing/03.jpg": {
+  "w": 420,
+  "h": 560
+ },
+ "lab/liquid-morphing/03.mp4": {
+  "w": 420,
+  "h": 560,
+  "d": 3.1
+ },
+ "lab/liquid-morphing/04.jpg": {
+  "w": 420,
+  "h": 514
+ },
+ "lab/liquid-morphing/04.mp4": {
+  "w": 420,
+  "h": 514,
+  "d": 3.1
+ },
+ "lab/liquid-morphing/05.jpg": {
+  "w": 420,
+  "h": 514
+ },
+ "lab/liquid-morphing/05.mp4": {
+  "w": 420,
+  "h": 514,
+  "d": 3.1
+ },
+ "lab/liquid-morphing/06.jpg": {
+  "w": 420,
+  "h": 420
+ },
+ "lab/liquid-morphing/06.mp4": {
+  "w": 420,
+  "h": 420,
+  "d": 3.1
+ },
+ "lab/liquid-morphing/07.jpg": {
+  "w": 420,
+  "h": 600
+ },
+ "lab/liquid-morphing/07.mp4": {
+  "w": 420,
+  "h": 600,
+  "d": 3.1
+ },
+ "lab/liquid-morphing/08.jpg": {
+  "w": 420,
+  "h": 660
+ },
+ "lab/liquid-morphing/08.mp4": {
+  "w": 420,
+  "h": 660,
+  "d": 3.1
+ },
+ "lab/liquid-morphing/09.jpg": {
+  "w": 420,
+  "h": 608
+ },
+ "lab/liquid-morphing/09.mp4": {
+  "w": 420,
+  "h": 608,
+  "d": 3.1
+ },
+ "lab/liquid-morphing/10.jpg": {
+  "w": 420,
+  "h": 560
+ },
+ "lab/liquid-morphing/10.mp4": {
+  "w": 420,
+  "h": 560,
+  "d": 3.1
+ },
+ "lab/liquid-morphing/11.jpg": {
+  "w": 420,
+  "h": 560
+ },
+ "lab/liquid-morphing/11.mp4": {
+  "w": 420,
+  "h": 560,
+  "d": 3.07
+ },
+ "lab/liquid-morphing/12.jpg": {
+  "w": 420,
+  "h": 514
+ },
+ "lab/liquid-morphing/12.mp4": {
+  "w": 420,
+  "h": 514,
+  "d": 4.1
+ },
+ "lab/liquid-morphing/cover.jpg": {
+  "w": 420,
+  "h": 600
+ },
+ "lab/liquid-morphing/cover.mp4": {
+  "w": 420,
+  "h": 600,
+  "d": 3.1
+ },
+ "lab/liquid-morphing/still.jpg": {
+  "w": 470,
+  "h": 298
+ },
+ "lab/pencil-sketch/01.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "lab/pencil-sketch/01.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 4.1
+ },
+ "lab/pencil-sketch/02.jpg": {
+  "w": 420,
+  "h": 242
+ },
+ "lab/pencil-sketch/02.mp4": {
+  "w": 420,
+  "h": 242,
+  "d": 4.6
+ },
+ "lab/pencil-sketch/03.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "lab/pencil-sketch/03.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 4.1
+ },
+ "lab/pencil-sketch/04.jpg": {
+  "w": 420,
+  "h": 242
+ },
+ "lab/pencil-sketch/04.mp4": {
+  "w": 420,
+  "h": 242,
+  "d": 3.8
+ },
+ "lab/pencil-sketch/05.jpg": {
+  "w": 420,
+  "h": 234
+ },
+ "lab/pencil-sketch/05.mp4": {
+  "w": 420,
+  "h": 234,
+  "d": 4.1
+ },
+ "lab/pencil-sketch/06.jpg": {
+  "w": 420,
+  "h": 242
+ },
+ "lab/pencil-sketch/06.mp4": {
+  "w": 420,
+  "h": 242,
+  "d": 3.8
+ },
+ "lab/pencil-sketch/07.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "lab/pencil-sketch/07.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 3.1
+ },
+ "lab/pencil-sketch/08.jpg": {
+  "w": 420,
+  "h": 242
+ },
+ "lab/pencil-sketch/08.mp4": {
+  "w": 420,
+  "h": 242,
+  "d": 4.6
+ },
+ "lab/pencil-sketch/09.jpg": {
+  "w": 420,
+  "h": 242
+ },
+ "lab/pencil-sketch/09.mp4": {
+  "w": 420,
+  "h": 242,
+  "d": 4.6
+ },
+ "lab/pencil-sketch/10.jpg": {
+  "w": 420,
+  "h": 234
+ },
+ "lab/pencil-sketch/10.mp4": {
+  "w": 420,
+  "h": 234,
+  "d": 2.6
+ },
+ "lab/pencil-sketch/11.jpg": {
+  "w": 420,
+  "h": 198
+ },
+ "lab/pencil-sketch/11.mp4": {
+  "w": 420,
+  "h": 198,
+  "d": 3.1
+ },
+ "lab/pencil-sketch/cover.jpg": {
+  "w": 420,
+  "h": 236
+ },
+ "lab/pencil-sketch/cover.mp4": {
+  "w": 420,
+  "h": 236,
+  "d": 4.6
+ },
+ "lab/pencil-sketch/still-01.jpg": {
+  "w": 402,
+  "h": 260
+ },
+ "lab/pencil-sketch/still-02.jpg": {
+  "w": 256,
+  "h": 160
+ },
+ "lab/product/01.jpg": {
+  "w": 420,
+  "h": 700
+ },
+ "lab/product/01.mp4": {
+  "w": 420,
+  "h": 700,
+  "d": 5.1
+ },
+ "lab/product/02.jpg": {
+  "w": 420,
+  "h": 420
+ },
+ "lab/product/02.mp4": {
+  "w": 420,
+  "h": 420,
+  "d": 5.1
+ },
+ "lab/product/03.jpg": {
+  "w": 420,
+  "h": 504
+ },
+ "lab/product/03.mp4": {
+  "w": 420,
+  "h": 504,
+  "d": 5.1
+ },
+ "lab/product/cover.jpg": {
+  "w": 420,
+  "h": 780
+ },
+ "lab/product/cover.mp4": {
+  "w": 420,
+  "h": 780,
+  "d": 5.1
+ },
+ "lab/qwen-loras/collage-01.jpg": {
+  "w": 596,
+  "h": 796
+ },
+ "lab/qwen-loras/collage-02.jpg": {
+  "w": 596,
+  "h": 834
+ },
+ "lab/qwen-loras/collage-03.jpg": {
+  "w": 596,
+  "h": 796
+ },
+ "lab/qwen-loras/cover.jpg": {
+  "w": 596,
+  "h": 834
+ },
+ "lab/qwen-loras/inside-01.jpg": {
+  "w": 596,
+  "h": 750
+ },
+ "lab/qwen-loras/inside-02.jpg": {
+  "w": 596,
+  "h": 796
+ },
+ "lab/qwen-loras/inside-03.jpg": {
+  "w": 596,
+  "h": 426
+ },
+ "lab/qwen-loras/inside-04.jpg": {
+  "w": 446,
+  "h": 426
+ },
+ "lab/qwen-restyle/compare-01.jpg": {
+  "w": 1920,
+  "h": 454
+ },
+ "lab/qwen-restyle/compare-02.jpg": {
+  "w": 1920,
+  "h": 454
+ },
+ "lab/qwen-restyle/compare-03.jpg": {
+  "w": 1920,
+  "h": 454
+ },
+ "lab/qwen-restyle/compare-04.jpg": {
+  "w": 1920,
+  "h": 376
+ },
+ "lab/qwen-restyle/compare-05.jpg": {
+  "w": 1920,
+  "h": 376
+ },
+ "lab/qwen-restyle/compare-06.jpg": {
+  "w": 1920,
+  "h": 376
+ },
+ "lab/qwen-restyle/compare-07.jpg": {
+  "w": 1920,
+  "h": 376
+ },
+ "lab/qwen-restyle/cover.jpg": {
+  "w": 1256,
+  "h": 700
+ },
+ "lab/qwen-restyle/gen-01.jpg": {
+  "w": 886,
+  "h": 502
+ },
+ "lab/qwen-restyle/gen-02.jpg": {
+  "w": 886,
+  "h": 502
+ },
+ "lab/qwen-restyle/gen-03.jpg": {
+  "w": 886,
+  "h": 502
+ },
+ "lab/qwen-restyle/gen-04.jpg": {
+  "w": 1920,
+  "h": 1088
+ },
+ "lab/qwen-restyle/gen-05.jpg": {
+  "w": 1920,
+  "h": 1088
+ },
+ "lab/qwen-restyle/gen-06.jpg": {
+  "w": 1920,
+  "h": 1088
+ },
+ "lab/qwen-restyle/gen-07.jpg": {
+  "w": 1920,
+  "h": 1088
+ },
+ "lab/qwen-restyle/reference.jpg": {
+  "w": 886,
+  "h": 526
+ },
+ "lab/qwen-restyle/still.jpg": {
+  "w": 360,
+  "h": 222
+ },
+ "lab/sdxl-style/cover.jpg": {
+  "w": 1152,
+  "h": 1152
+ },
+ "lab/sdxl-style/crayon.jpg": {
+  "w": 644,
+  "h": 644
+ },
+ "lab/sdxl-style/initial.jpg": {
+  "w": 644,
+  "h": 644
+ },
+ "lab/sdxl-style/whiteboard.jpg": {
+  "w": 644,
+  "h": 644
+ },
+ "lab/style-loras/style-3d-animated.jpg": {
+  "w": 1000,
+  "h": 564
+ },
+ "lab/style-loras/style-comic.jpg": {
+  "w": 1000,
+  "h": 564
+ },
+ "lab/style-loras/style-half-illustration.jpg": {
+  "w": 1000,
+  "h": 568
+ },
+ "lab/uni3c/01.jpg": {
+  "w": 320,
+  "h": 420
+ },
+ "lab/uni3c/01.mp4": {
+  "w": 320,
+  "h": 420,
+  "d": 4.1
+ },
+ "lab/uni3c/02.jpg": {
+  "w": 320,
+  "h": 670
+ },
+ "lab/uni3c/02.mp4": {
+  "w": 320,
+  "h": 670,
+  "d": 4.1
+ },
+ "lab/uni3c/03.jpg": {
+  "w": 320,
+  "h": 560
+ },
+ "lab/uni3c/03.mp4": {
+  "w": 320,
+  "h": 560,
+  "d": 4.1
+ },
+ "lab/uni3c/cover.jpg": {
+  "w": 320,
+  "h": 560
+ },
+ "lab/uni3c/cover.mp4": {
+  "w": 320,
+  "h": 560,
+  "d": 4.1
+ },
+ "lab/visual/01.jpg": {
+  "w": 420,
+  "h": 562
+ },
+ "lab/visual/01.mp4": {
+  "w": 420,
+  "h": 562,
+  "d": 3.07
+ },
+ "lab/visual/02.jpg": {
+  "w": 420,
+  "h": 608
+ },
+ "lab/visual/02.mp4": {
+  "w": 420,
+  "h": 608,
+  "d": 5.07
+ },
+ "lab/visual/03.jpg": {
+  "w": 420,
+  "h": 514
+ },
+ "lab/visual/03.mp4": {
+  "w": 420,
+  "h": 514,
+  "d": 5.07
+ },
+ "lab/visual/04.jpg": {
+  "w": 420,
+  "h": 630
+ },
+ "lab/visual/04.mp4": {
+  "w": 420,
+  "h": 630,
+  "d": 2.1
+ },
+ "lab/visual/05.jpg": {
+  "w": 320,
+  "h": 556
+ },
+ "lab/visual/05.mp4": {
+  "w": 320,
+  "h": 556,
+  "d": 5.1
+ },
+ "lab/visual/06.jpg": {
+  "w": 420,
+  "h": 526
+ },
+ "lab/visual/06.mp4": {
+  "w": 420,
+  "h": 526,
+  "d": 4.1
+ },
+ "lab/visual/07.jpg": {
+  "w": 420,
+  "h": 420
+ },
+ "lab/visual/07.mp4": {
+  "w": 420,
+  "h": 420,
+  "d": 3.07
+ },
+ "lab/visual/cover.jpg": {
+  "w": 420,
+  "h": 720
+ },
+ "lab/visual/cover.mp4": {
+  "w": 420,
+  "h": 720,
+  "d": 5.07
+ },
+ "work/bps-intel.jpg": {
+  "w": 1000,
+  "h": 564
+ },
+ "work/go-beyond.jpg": {
+  "w": 1000,
+  "h": 564
+ },
+ "work/greater-asia.jpg": {
+  "w": 1000,
+  "h": 564
+ },
+ "work/hp-accessories.jpg": {
+  "w": 1920,
+  "h": 1080
+ },
+ "work/hp-monitors.jpg": {
+  "w": 1000,
+  "h": 564
+ },
+ "work/hp-spectre.jpg": {
+  "w": 1000,
+  "h": 564
+ }
+}

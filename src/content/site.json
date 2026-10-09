@@ -1,0 +1,36 @@
+{
+  "name": "Ashish G.",
+  "brand": "AshmoTV",
+  "role": "AI-first Motion Designer & Creative Producer",
+  "tagline": "2D/3D motion design, creative production, and custom-trained AI models — building the tools and pipelines behind global AI-led campaigns.",
+  "location": "India · Working worldwide",
+  "timezone": "Asia/Kolkata",
+  "availability": "Open for collaborations",
+  "email": "ashish.motiongraphics@gmail.com",
+  "phone": "+91 85860 10201",
+  "phoneHref": "tel:+918586010201",
+  "whatsapp": "https://wa.me/918586010201",
+  "hours": "9:00 – 18:00 IST",
+  "showreel": "youtube:aAXB3aphjIo",
+  "socials": [
+    { "label": "X", "handle": "@ashmoTv", "url": "https://x.com/ashmoTv" },
+    { "label": "Discord", "handle": "AshmoTV", "url": "https://discord.com/users/1138907661602136245" },
+    { "label": "Hugging Face", "handle": "Ashmotv", "url": "https://huggingface.co/Ashmotv" },
+    { "label": "YouTube", "handle": "@AshmoTV", "url": "https://www.youtube.com/@AshmoTV" },
+    { "label": "Instagram", "handle": "@ashmotv7", "url": "https://www.instagram.com/ashmotv7" }
+  ],
+  "clients": [
+    { "name": "HP", "logo": "brand/clients/hp.png" },
+    { "name": "Digitas", "logo": "brand/clients/digitas.png" },
+    { "name": "Nestlé", "logo": "brand/clients/nestle.png" },
+    { "name": "Google", "logo": "brand/clients/google.png" },
+    { "name": "Discovery", "logo": "brand/clients/discovery.png" },
+    { "name": "HCL", "logo": "brand/clients/hcl.png" },
+    { "name": "GE", "logo": "brand/clients/ge.png" },
+    { "name": "Goldman Sachs", "logo": "brand/clients/goldman-sachs.png" },
+    { "name": "Ford", "logo": "brand/clients/ford.png" },
+    { "name": "American Express", "logo": "brand/clients/american-express.png" },
+    { "name": "Tata", "logo": "brand/clients/tata.png" },
+    { "name": "Unilever", "logo": "brand/clients/unilever.png" }
+  ]
+}

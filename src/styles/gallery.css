@@ -1,0 +1,98 @@
+/* =========================================================================
+   Archive — infinite draggable canvas (desktop) + masonry grid (fallback)
+   ========================================================================= */
+
+/* ---------- canvas mode: lock the page ---------- */
+html.ar-lock, html.ar-lock body { overflow: hidden; overscroll-behavior: none; }
+.is-ar-canvas .footer { display: none; }
+
+.ar { position: fixed; inset: 0; }
+
+.ar__stage {
+  position: absolute; inset: 0; z-index: 1; overflow: clip;
+  touch-action: none; user-select: none; -webkit-user-select: none;
+}
+.ar__item {
+  position: absolute; left: 0; top: 0; display: block; width: 260px;
+  transform: translate3d(-300vw, -300vh, 0); /* parked off-screen until placed */
+  will-change: transform; -webkit-user-drag: none; border-radius: 10px;
+}
+.ar__item .media { border-radius: 10px; }
+.ar__item img, .ar__item video { pointer-events: none; -webkit-user-drag: none; }
+.ar__item:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+.ar__stage.is-dragging .ar__item { pointer-events: none; }
+/* without WebGL the DOM media shows: give it a quiet hover */
+html:not(.has-gl) .ar__item .media { transition: box-shadow .4s; }
+html:not(.has-gl) .ar__item:hover .media { box-shadow: 0 0 0 1px rgba(var(--accent-rgb), .6); }
+
+/* legibility for the nav + overlay type (pure DOM, sits above the WebGL planes) */
+.ar__scrim {
+  position: absolute; inset: 0; z-index: 2; pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(var(--bg-rgb), .72) 0, rgba(var(--bg-rgb), 0) 150px),
+    linear-gradient(0deg, rgba(var(--bg-rgb), .9) 0, rgba(var(--bg-rgb), .55) 18%, rgba(var(--bg-rgb), 0) 42%);
+}
+
+/* ---------- overlay UI ---------- */
+.ar__ui {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 3; pointer-events: none;
+  display: flex; justify-content: space-between; align-items: flex-end; gap: 32px;
+  padding: 0 var(--gutter) clamp(20px, 3.4vh, 40px);
+}
+.ar__ui button, .ar__map { pointer-events: auto; }
+.ar__h { font-size: clamp(64px, 9.6vw, 184px); line-height: .84; white-space: nowrap; }
+.ar__mask { display: inline-block; overflow: hidden; vertical-align: bottom; padding: .06em .06em .04em 0; margin: -.06em -.06em -.04em 0; }
+.ar__mask > * { display: inline-block; }
+.ar__h .t-serif { font-size: 1.1em; }
+.ar__sub { margin-top: clamp(10px, 1.4vh, 18px); color: var(--muted); }
+
+.ar__side { display: flex; flex-direction: column; align-items: flex-end; gap: 14px; flex: none; }
+.ar__map {
+  padding: 10px; border: 1px solid var(--line-2); border-radius: 12px;
+  background: rgba(var(--glass-rgb), .55); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  transition: border-color .4s;
+}
+.ar__map:hover { border-color: rgba(var(--accent-rgb), .6); }
+.ar__map canvas { display: block; border-radius: 3px; }
+.ar__coords { display: block; margin-top: 8px; font-size: 9.5px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ar__hint { display: inline-flex; align-items: center; gap: 10px; color: var(--text-2); }
+.ar__hint-ico { position: relative; width: 30px; height: 18px; border: 1px solid var(--line-2); border-radius: 999px; }
+.ar__hint-ico::after {
+  content: ''; position: absolute; top: 50%; left: 5px; width: 6px; height: 6px; margin-top: -3px; border-radius: 50%;
+  background: var(--accent); animation: ar-hint 2.4s var(--ease) infinite;
+}
+@keyframes ar-hint { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(12px); } }
+.ar__toggle { --h: 44px; padding: 0 20px; font-size: 13px; background: rgba(var(--glass-rgb), .55); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+
+/* title of the hovered piece */
+.ar__tip {
+  position: absolute; left: 0; top: 0; z-index: 4; pointer-events: none;
+  display: inline-flex; align-items: center; gap: 8px; max-width: 320px; padding: 6px 11px; border-radius: 999px;
+  border: 1px solid var(--line-2); background: rgba(var(--bg-rgb), .8); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  font-size: 10.5px; color: var(--text); white-space: nowrap; opacity: 0; transition: opacity .25s;
+}
+.ar__tip.is-on { opacity: 1; }
+.ar__tip-t { overflow: hidden; text-overflow: ellipsis; }
+
+@media (max-width: 1100px) {
+  .ar__map { display: none; }
+}
+
+/* ---------- grid mode ---------- */
+.arg { padding-bottom: clamp(80px, 10vw, 160px); }
+.arg__bar {
+  display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap;
+  padding-block: 18px; margin-bottom: clamp(24px, 3vw, 44px); border-top: 1px solid var(--line);
+}
+.arg__toggle { --h: 44px; padding: 0 20px; font-size: 13px; }
+.arg__list { columns: 4; column-gap: clamp(12px, 1.6vw, 24px); }
+.arg__cell { break-inside: avoid; margin-bottom: clamp(18px, 2vw, 30px); }
+.arg__link { display: block; border-radius: 10px; }
+.arg__link .media { border-radius: 10px; }
+.arg__link:focus-visible { outline-offset: 4px; }
+.arg__meta { display: flex; gap: 10px; margin-top: 10px; font-size: 10.5px; color: var(--muted); transition: color .3s; }
+.arg__meta > span:last-child:not(.accent) { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.arg__link:hover .arg__meta { color: var(--text); }
+@media (max-width: 1200px) { .arg__list { columns: 3; } }
+@media (max-width: 860px) { .arg__list { columns: 2; } }
+@media (max-width: 380px) { .arg__meta { font-size: 9.5px; } }

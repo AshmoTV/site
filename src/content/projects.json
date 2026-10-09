@@ -1,0 +1,1121 @@
+[
+  {
+    "id": "embroidery-lora",
+    "section": "lab",
+    "type": "lora",
+    "featured": true,
+    "title": "WAN Embroidery LoRA",
+    "summary": "WAN 2.2 LoRAs that simulate knitting and embroidery as a moving, tactile material.",
+    "cover": "lab/embroidery/cover.mp4",
+    "caption": "Created using WAN combined with Embroidery LoRA",
+    "tools": [
+      "AI Toolkit",
+      "ComfyUI"
+    ],
+    "models": [
+      "Wan 2.2 (Video)",
+      "Z-Image Turbo (Images)",
+      "Gemini 2.5 (Prompts)"
+    ],
+    "body": [
+      "This project started with an interest in treating embroidery as a moving material rather than a static texture, inspired by various commercials and Houdini simulations.",
+      "I trained a custom Embroidery LoRA to capture stitched patterns and thread animations. The goal was to preserve the tactile feel of embroidery while still allowing variation in form, movement, and composition.",
+      "The LoRA was integrated in an I2V workflow, combined with Z-Image and an LLM to generate images through to final videos."
+    ],
+    "sections": [
+      {
+        "title": "Embroidery LoRA — Visual Explorations",
+        "text": "Z-Image + WAN 2.2",
+        "media": [
+          "lab/embroidery/emb-01.mp4",
+          "lab/embroidery/emb-02.mp4",
+          "lab/embroidery/emb-03.mp4",
+          "lab/embroidery/emb-04.mp4"
+        ]
+      },
+      {
+        "title": "Knitting LoRA — Visual Explorations",
+        "text": "Z-Image + WAN 2.2",
+        "media": [
+          "lab/embroidery/knit-01.mp4",
+          "lab/embroidery/knit-02.mp4",
+          "lab/embroidery/knit-03.mp4",
+          "lab/embroidery/knit-04.mp4"
+        ]
+      },
+      {
+        "title": "More explorations",
+        "media": [
+          "lab/embroidery/more-01.mp4",
+          "lab/embroidery/more-02.mp4",
+          "lab/embroidery/still.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "liquid-morphing-lora",
+    "section": "lab",
+    "type": "lora",
+    "featured": true,
+    "title": "Seamless Liquid Morphing LoRA",
+    "summary": "A WAN 2.2 LoRA trained for continuous motion, smooth transitions and liquid-like deformation.",
+    "cover": "lab/liquid-morphing/cover.mp4",
+    "caption": "Created using FFLF WAN combined with Morphing LoRA",
+    "tools": [
+      "AI Toolkit",
+      "ComfyUI"
+    ],
+    "models": [
+      "Wan 2.2 (Video)",
+      "Qwen Image",
+      "Gemini 2.5 / Qwen VL 8B (Prompts)"
+    ],
+    "body": [
+      "This LoRA was inspired by classic hand-drawn morphing sequences, where shapes transform fluidly while maintaining visual continuity.",
+      "I set out to capture that feeling with a custom WAN 2.2 LoRA. Trained to emphasize continuous motion, smooth transitions, and liquid-like deformations, this LoRA generates frames that flow seamlessly while preserving visual continuity. The focus is on achieving fluid, intentional motion suitable for motion design."
+    ],
+    "sections": [
+      {
+        "title": "First–last frame generations",
+        "text": "WAN 2.2 first/last frame workflow combined with the morphing LoRA",
+        "media": [
+          "lab/liquid-morphing/01.mp4",
+          "lab/liquid-morphing/02.mp4",
+          "lab/liquid-morphing/03.mp4",
+          "lab/liquid-morphing/04.mp4",
+          "lab/liquid-morphing/05.mp4",
+          "lab/liquid-morphing/06.mp4",
+          "lab/liquid-morphing/07.mp4",
+          "lab/liquid-morphing/08.mp4",
+          "lab/liquid-morphing/09.mp4",
+          "lab/liquid-morphing/10.mp4",
+          "lab/liquid-morphing/11.mp4",
+          "lab/liquid-morphing/12.mp4"
+        ]
+      },
+      {
+        "title": "Faces Morphing — liquid motion experiment",
+        "layout": "wide",
+        "media": [
+          {
+            "src": "youtube:gh16UOTrW2I",
+            "caption": "Generated using first–last frames with WAN 2.2 combined with the morphing LoRA"
+          }
+        ]
+      },
+      {
+        "title": "Stills",
+        "media": [
+          "lab/liquid-morphing/still.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pencil-sketch-lora",
+    "section": "lab",
+    "type": "lora",
+    "featured": true,
+    "title": "Pencil Sketch Style LoRA",
+    "summary": "Hand-drawn pencil shading for WAN 2.2 — cross-hatching and over-drawn pencil stroke animation.",
+    "cover": "lab/pencil-sketch/cover.mp4",
+    "caption": "Created using WAN T2V combined with Pencil Sketch LoRA",
+    "tools": [
+      "AI Toolkit",
+      "ComfyUI"
+    ],
+    "models": [
+      "Wan 2.2 (Video)"
+    ],
+    "body": [
+      "This project grew out of a desire to recreate the imperfections and warmth of hand-drawn pencil animation, particularly the style from the award-winning short film [Dear Basketball](https://youtu.be/lUcdx4W8Xes), using generative tools.",
+      "A custom LoRA was trained to capture pencil sketch-like line quality, cross-hatching texture and shading variation. The main challenge was avoiding overly clean or “digital” results, while still keeping enough consistency for motion."
+    ],
+    "sections": [
+      {
+        "title": "Winter Hunt — Pencil LoRA exploration",
+        "layout": "wide",
+        "media": [
+          {
+            "src": "youtube:9qBBegC7ygI",
+            "caption": "Generated using Text2Video WAN 2.2 with the Pencil Sketch LoRA"
+          }
+        ]
+      },
+      {
+        "title": "Examples generated with T2V WAN 2.2",
+        "text": "Pencil Sketch LoRA",
+        "media": [
+          "lab/pencil-sketch/01.mp4",
+          "lab/pencil-sketch/02.mp4",
+          "lab/pencil-sketch/03.mp4",
+          "lab/pencil-sketch/04.mp4",
+          "lab/pencil-sketch/05.mp4",
+          "lab/pencil-sketch/06.mp4",
+          "lab/pencil-sketch/07.mp4",
+          "lab/pencil-sketch/08.mp4",
+          "lab/pencil-sketch/09.mp4",
+          "lab/pencil-sketch/10.mp4",
+          "lab/pencil-sketch/11.mp4"
+        ]
+      },
+      {
+        "title": "Stills",
+        "media": [
+          "lab/pencil-sketch/still-01.jpg",
+          "lab/pencil-sketch/still-02.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "qwen-restyle-lora",
+    "section": "lab",
+    "type": "lora",
+    "featured": true,
+    "title": "Qwen Edit 2D Restyle LoRA",
+    "summary": "Transfers character features and visual style from a reference image — for consistent storyboards and animation-ready assets.",
+    "cover": "lab/qwen-restyle/cover.jpg",
+    "caption": "Created using Qwen Image Edit combined with a custom LoRA",
+    "tools": [
+      "AI Toolkit",
+      "ComfyUI",
+      "Custom Python app"
+    ],
+    "models": [
+      "Qwen Image Edit",
+      "Gemini 2.5 (Prompts)",
+      "Gemini + Claude (Python app dev)"
+    ],
+    "body": [
+      "This project came out of a need for translating written scripts into visually consistent storyboards and animation-ready assets.",
+      "I trained a LoRA to transfer character features and overall visual style from single or multiple reference images, enabling consistent character representation and visual style across multiple storyboard frames. This approach allows rapid iteration while maintaining visual continuity throughout the frames.",
+      "The generated images were then processed through a custom Python-based web app to convert them into clean, editable SVG files, making them directly usable within Illustrator and downstream animation pipelines."
+    ],
+    "sections": [
+      {
+        "title": "Reference → generated",
+        "text": "The first frame is the reference image; the rest are generated with the Restyle LoRA",
+        "media": [
+          {
+            "src": "lab/qwen-restyle/reference.jpg",
+            "caption": "Reference image"
+          },
+          {
+            "src": "lab/qwen-restyle/gen-01.jpg",
+            "caption": "Generated"
+          },
+          {
+            "src": "lab/qwen-restyle/gen-02.jpg",
+            "caption": "Generated"
+          },
+          {
+            "src": "lab/qwen-restyle/gen-03.jpg",
+            "caption": "Generated"
+          },
+          {
+            "src": "lab/qwen-restyle/gen-04.jpg",
+            "caption": "Generated"
+          },
+          {
+            "src": "lab/qwen-restyle/gen-05.jpg",
+            "caption": "Generated"
+          },
+          {
+            "src": "lab/qwen-restyle/gen-06.jpg",
+            "caption": "Generated"
+          },
+          {
+            "src": "lab/qwen-restyle/gen-07.jpg",
+            "caption": "Generated"
+          }
+        ]
+      },
+      {
+        "title": "Comparison",
+        "layout": "stack",
+        "media": [
+          "lab/qwen-restyle/compare-01.jpg",
+          "lab/qwen-restyle/compare-02.jpg",
+          "lab/qwen-restyle/compare-03.jpg",
+          "lab/qwen-restyle/compare-04.jpg",
+          "lab/qwen-restyle/compare-05.jpg",
+          "lab/qwen-restyle/compare-06.jpg",
+          "lab/qwen-restyle/compare-07.jpg"
+        ]
+      },
+      {
+        "title": "Stills",
+        "media": [
+          "lab/qwen-restyle/still.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "style-3d-animated",
+    "section": "lab",
+    "type": "lora",
+    "title": "3D Animated Style LoRA",
+    "summary": "Captures a 3D animated look with painterly brush textures.",
+    "cover": "lab/style-loras/style-3d-animated.jpg",
+    "models": [
+      "Wan 2.2 (Video)"
+    ],
+    "body": [
+      "Part of a set of trained style LoRAs for WAN.",
+      "Captures a 3D animated look with painterly brush textures."
+    ],
+    "sections": [
+      {
+        "title": "Sample",
+        "layout": "wide",
+        "media": [
+          "youtube:qjirSxuAvmc"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "style-comic",
+    "section": "lab",
+    "type": "lora",
+    "title": "Comic Style LoRA",
+    "summary": "Expressive, comic-inspired illustration — exaggerated animation, flat 2D shading, an emphasis on character and expression.",
+    "cover": "lab/style-loras/style-comic.jpg",
+    "models": [
+      "Wan 2.2 (Video)"
+    ],
+    "body": [
+      "Part of a set of trained style LoRAs for WAN.",
+      "Expressive, comic-inspired illustration — exaggerated animation, flat 2D shading, an emphasis on character and expression."
+    ],
+    "sections": [
+      {
+        "title": "Sample",
+        "layout": "wide",
+        "media": [
+          "youtube:4vU6DYeGUfk"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "style-half-illustration",
+    "section": "lab",
+    "type": "lora",
+    "title": "Half Illustration Style LoRA",
+    "summary": "2D illustration overlaid on cinematic realism — a look that is extremely hard to accomplish with default models.",
+    "cover": "lab/style-loras/style-half-illustration.jpg",
+    "models": [
+      "Wan 2.2 (Video)"
+    ],
+    "body": [
+      "Part of a set of trained style LoRAs for WAN.",
+      "2D illustration overlaid on cinematic realism — a look that is extremely hard to accomplish with default models."
+    ],
+    "sections": [
+      {
+        "title": "Sample",
+        "layout": "wide",
+        "media": [
+          "youtube:7nM4BsAmdxA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "effect-loras",
+    "section": "lab",
+    "type": "lora",
+    "featured": true,
+    "title": "Transitions & Effects LoRAs",
+    "summary": "A growing collection of WAN LoRAs built specifically for motion transitions and effects.",
+    "cover": "youtube:U3Q0to0uVso",
+    "models": [
+      "Wan 2.2 (Video)"
+    ],
+    "links": [
+      {
+        "label": "Exploded effect LoRA on Hugging Face",
+        "url": "https://huggingface.co/Ashmotv/exploded_effect_wan"
+      },
+      {
+        "label": "Water morphing LoRA on Hugging Face",
+        "url": "https://huggingface.co/Ashmotv/water_morping_wan"
+      }
+    ],
+    "body": [
+      "A growing collection of LoRAs built specifically for motion transitions and effects: exploded, water morphing, mechanical and glitch transformations, inflate, ripple wave, and a 360° camera rotation LoRA."
+    ],
+    "sections": [
+      {
+        "title": "Exploded effect LoRA",
+        "layout": "wide",
+        "media": [
+          "youtube:U3Q0to0uVso"
+        ]
+      },
+      {
+        "title": "Water morphing effect LoRA",
+        "layout": "wide",
+        "media": [
+          "youtube:9j0EosEug54"
+        ]
+      },
+      {
+        "title": "Mechanical & glitch transformation LoRAs",
+        "layout": "wide",
+        "media": [
+          "youtube:-akjx2tQcjo"
+        ]
+      },
+      {
+        "title": "Inflate & ripple wave effect LoRAs",
+        "layout": "wide",
+        "media": [
+          "youtube:yhH46-wU7Xg"
+        ]
+      },
+      {
+        "title": "360° camera rotation LoRA",
+        "text": "Trained for WAN 2.2. Samples generated using one input image each.",
+        "layout": "wide",
+        "media": [
+          "youtube:0sQh0kbhd6Q"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "qwen-loras",
+    "section": "lab",
+    "type": "lora",
+    "title": "Qwen Image LoRAs",
+    "summary": "Inside View and Cutout Collage — image LoRAs trained for Qwen.",
+    "cover": "lab/qwen-loras/cover.jpg",
+    "tools": [
+      "AI Toolkit",
+      "ComfyUI"
+    ],
+    "models": [
+      "Qwen Image"
+    ],
+    "body": [
+      "Image LoRAs trained for Qwen, exploring distinctive editorial looks."
+    ],
+    "sections": [
+      {
+        "title": "Inside View LoRA",
+        "media": [
+          "lab/qwen-loras/inside-01.jpg",
+          "lab/qwen-loras/inside-02.jpg",
+          "lab/qwen-loras/inside-03.jpg",
+          "lab/qwen-loras/inside-04.jpg"
+        ]
+      },
+      {
+        "title": "Cutout Collage LoRA",
+        "media": [
+          "lab/qwen-loras/collage-01.jpg",
+          "lab/qwen-loras/collage-02.jpg",
+          "lab/qwen-loras/collage-03.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flux-loras",
+    "section": "lab",
+    "type": "lora",
+    "title": "Flux LoRAs",
+    "summary": "Image LoRAs trained for Flux, with LTX for animated tests.",
+    "cover": "lab/flux-loras/cover.jpg",
+    "tools": [
+      "ComfyUI"
+    ],
+    "models": [
+      "Flux",
+      "LTX (video)"
+    ],
+    "body": [
+      "LoRAs trained for Flux, with LTX used to bring selected stills into motion."
+    ],
+    "sections": [
+      {
+        "title": "Samples",
+        "media": [
+          "lab/flux-loras/01.jpg",
+          "lab/flux-loras/02.mp4",
+          "lab/flux-loras/03.jpg",
+          "lab/flux-loras/04.jpg",
+          "lab/flux-loras/05.jpg",
+          "lab/flux-loras/06.mp4",
+          "lab/flux-loras/07.mp4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "looping-explorations",
+    "section": "lab",
+    "type": "exploration",
+    "featured": true,
+    "title": "Looping Explorations",
+    "summary": "Seamless high-resolution loops grown from a single starting image.",
+    "cover": "youtube:X-SNISjah5M",
+    "tools": [
+      "ComfyUI",
+      "After Effects"
+    ],
+    "models": [
+      "Qwen Image Edit",
+      "WAN 2.2",
+      "VACE"
+    ],
+    "body": [
+      "A series of looping animations developed from a single starting image. The process explores how generative image editing, multi-stage animation, and traditional compositing can be combined into a controllable, repeatable workflow.",
+      "Keyframes were generated using Qwen image-edit models, expanded into sequential animations, assembled in After Effects, and refined through temporal cleanup and upscaling passes to produce seamless high-resolution loops."
+    ],
+    "sections": [
+      {
+        "title": "The loops",
+        "layout": "shorts",
+        "media": [
+          {
+            "src": "youtube:X-SNISjah5M",
+            "caption": "Day in the life"
+          },
+          {
+            "src": "youtube:SkqlpbB_n48",
+            "caption": "Around the World"
+          },
+          {
+            "src": "youtube:eGJhgf-BKBA",
+            "caption": "Bounce"
+          },
+          {
+            "src": "youtube:kHGgpjD2I18",
+            "caption": "Textures"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "product-explorations",
+    "section": "lab",
+    "type": "exploration",
+    "title": "Product Explorations",
+    "summary": "Visual explorations for product animation using WAN 2.2.",
+    "cover": "lab/product/cover.mp4",
+    "tools": [
+      "ComfyUI",
+      "After Effects"
+    ],
+    "models": [
+      "WAN 2.2"
+    ],
+    "body": [
+      "Visual explorations for product animations using WAN 2.2."
+    ],
+    "sections": [
+      {
+        "title": "Explorations",
+        "media": [
+          "lab/product/01.mp4",
+          "lab/product/02.mp4",
+          "lab/product/03.mp4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "visual-explorations",
+    "section": "lab",
+    "type": "exploration",
+    "title": "Visual Explorations",
+    "summary": "Abstract studies built with WAN, Qwen and custom LoRAs.",
+    "cover": "lab/visual/cover.mp4",
+    "tools": [
+      "ComfyUI"
+    ],
+    "models": [
+      "WAN",
+      "Qwen Image",
+      "Qwen Edit",
+      "Custom LoRAs"
+    ],
+    "body": [
+      "Abstract visual studies and system-based experiments, built through multi-stage generative workflows."
+    ],
+    "sections": [
+      {
+        "title": "Studies",
+        "media": [
+          "lab/visual/01.mp4",
+          "lab/visual/02.mp4",
+          "lab/visual/03.mp4",
+          "lab/visual/04.mp4",
+          "lab/visual/05.mp4",
+          "lab/visual/06.mp4",
+          "lab/visual/07.mp4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "uni3c-camera-transfer",
+    "section": "lab",
+    "type": "exploration",
+    "title": "Camera Movement Transfer",
+    "summary": "Transferring camera motion between shots using Uni3C.",
+    "cover": "lab/uni3c/cover.mp4",
+    "tools": [
+      "ComfyUI"
+    ],
+    "models": [
+      "WAN",
+      "Uni3C"
+    ],
+    "body": [
+      "Camera movement transfer experiments using Uni3C."
+    ],
+    "sections": [
+      {
+        "title": "Tests",
+        "media": [
+          "lab/uni3c/01.mp4",
+          "lab/uni3c/02.mp4",
+          "lab/uni3c/03.mp4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sdxl-style-transfer",
+    "section": "lab",
+    "type": "experiment",
+    "title": "SDXL Style Transfer",
+    "summary": "One image, many media — style transfer explorations with SDXL and IP-Adapter.",
+    "cover": "lab/sdxl-style/cover.jpg",
+    "tools": [
+      "ComfyUI"
+    ],
+    "models": [
+      "SDXL",
+      "IP-Adapter"
+    ],
+    "body": [
+      "Style transfer explorations using SDXL and IP-Adapter: a single initial image re-rendered as crayon, whiteboard marker and oil painting."
+    ],
+    "sections": [
+      {
+        "title": "Initial image → styles",
+        "media": [
+          {
+            "src": "lab/sdxl-style/initial.jpg",
+            "caption": "Initial image"
+          },
+          {
+            "src": "lab/sdxl-style/crayon.jpg",
+            "caption": "Crayon"
+          },
+          {
+            "src": "lab/sdxl-style/whiteboard.jpg",
+            "caption": "Whiteboard marker"
+          },
+          {
+            "src": "lab/sdxl-style/cover.jpg",
+            "caption": "Oil painting"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "early-video-to-video",
+    "section": "lab",
+    "type": "experiment",
+    "title": "Early Video-to-Video Style Transfer",
+    "summary": "Where it started: SD 1.5, IP-Adapter and AnimateDiff.",
+    "cover": "lab/early-v2v/cover.mp4",
+    "tools": [
+      "ComfyUI"
+    ],
+    "models": [
+      "SD 1.5",
+      "IP-Adapter",
+      "AnimateDiff"
+    ],
+    "body": [
+      "Early video-to-video style transfer explorations from the first wave of open generative video tools."
+    ],
+    "sections": [
+      {
+        "title": "Source → stylized",
+        "media": [
+          {
+            "src": "lab/early-v2v/source.mp4",
+            "caption": "Source video"
+          },
+          {
+            "src": "lab/early-v2v/cover.mp4",
+            "caption": "Stylized video"
+          }
+        ]
+      },
+      {
+        "title": "AnimateDiff & SD 1.5 explorations",
+        "media": [
+          "lab/early-v2v/animatediff-01.mp4",
+          "lab/early-v2v/animatediff-02.mp4",
+          "lab/early-v2v/animatediff-03.mp4",
+          "lab/early-v2v/animatediff-04.mp4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "svg-vectorizer",
+    "section": "lab",
+    "type": "tool",
+    "title": "Raster → SVG Vectorizer",
+    "summary": "A custom Python web app that turns generated frames into clean, editable SVGs for Illustrator and animation pipelines.",
+    "cover": "lab/qwen-restyle/gen-04.jpg",
+    "tools": [
+      "Python"
+    ],
+    "models": [
+      "Built with Gemini + Claude"
+    ],
+    "body": [
+      "Built alongside the Qwen Restyle LoRA: generated storyboard frames are processed through a custom Python-based web app that converts them into clean, editable SVG files — directly usable within Illustrator and downstream animation pipelines."
+    ],
+    "links": [
+      {
+        "label": "See it in the Restyle LoRA pipeline",
+        "url": "project.html?id=qwen-restyle-lora"
+      }
+    ],
+    "sections": []
+  },
+  {
+    "id": "tool-draft-1",
+    "section": "lab",
+    "type": "tool",
+    "draft": true,
+    "title": "AI tool for artists #1",
+    "summary": "DRAFT — describe a creative tool you built and deployed for artists.",
+    "cover": "lab/visual/cover.mp4",
+    "tools": [
+      "ComfyUI",
+      "Python"
+    ],
+    "models": [],
+    "body": [
+      "DRAFT — What problem did it solve for artists? Who used it, and what changed for them?"
+    ],
+    "sections": []
+  },
+  {
+    "id": "tool-draft-2",
+    "section": "lab",
+    "type": "tool",
+    "draft": true,
+    "title": "AI tool for artists #2",
+    "summary": "DRAFT — describe a creative tool you built and deployed for artists.",
+    "cover": "lab/visual/cover.mp4",
+    "tools": [
+      "ComfyUI",
+      "Python"
+    ],
+    "models": [],
+    "body": [
+      "DRAFT — What problem did it solve for artists? Who used it, and what changed for them?"
+    ],
+    "sections": []
+  },
+  {
+    "id": "lora-draft-1",
+    "section": "lab",
+    "type": "lora",
+    "draft": true,
+    "title": "New LoRA (draft)",
+    "summary": "DRAFT — add your latest LoRA training here.",
+    "cover": "lab/liquid-morphing/03.mp4",
+    "models": [
+      "Wan 2.2 (Video)"
+    ],
+    "body": [
+      "DRAFT"
+    ],
+    "sections": []
+  },
+  {
+    "id": "ai-campaign-draft-1",
+    "section": "work",
+    "type": "ai-campaign",
+    "draft": true,
+    "title": "Global AI-led campaign (draft)",
+    "client": "Client name",
+    "summary": "DRAFT — a global commercial campaign led with AI. Fill in the story, role and results.",
+    "roles": [
+      "AI Lead",
+      "Creative Producer"
+    ],
+    "cover": "lab/embroidery/emb-01.mp4",
+    "stats": [
+      {
+        "value": "00",
+        "label": "markets"
+      },
+      {
+        "value": "00",
+        "label": "assets"
+      }
+    ],
+    "body": [
+      "DRAFT — Brief, approach, pipeline, results."
+    ],
+    "sections": []
+  },
+  {
+    "id": "ai-campaign-draft-2",
+    "section": "work",
+    "type": "ai-campaign",
+    "draft": true,
+    "title": "AI-led campaign #2 (draft)",
+    "client": "Client name",
+    "summary": "DRAFT — second AI-led campaign.",
+    "roles": [
+      "AI Lead"
+    ],
+    "cover": "lab/liquid-morphing/05.mp4",
+    "body": [
+      "DRAFT"
+    ],
+    "sections": []
+  },
+  {
+    "id": "smart-tank-launch",
+    "section": "work",
+    "type": "campaign",
+    "title": "Smart Tank Global Launch",
+    "summary": "A global launch campaign for the latest Smart Tank printer series, delivered across 20+ countries.",
+    "roles": [
+      "Creative Producer",
+      "Team Lead — Motion Design"
+    ],
+    "cover": "youtube:Hgu5AEh1SCc",
+    "body": [
+      "A global launch campaign for the latest Smart Tank printer series, delivered across 20+ countries. The project involved concept development and the creation of over 500 localized assets in 15+ languages, with a strong focus on consistency, scalability, and efficient production workflows."
+    ],
+    "sections": [
+      {
+        "title": "Film",
+        "layout": "wide",
+        "media": [
+          "youtube:Hgu5AEh1SCc"
+        ]
+      }
+    ],
+    "client": "HP",
+    "featured": true,
+    "stats": [
+      {
+        "value": "20+",
+        "label": "countries"
+      },
+      {
+        "value": "500+",
+        "label": "localized assets"
+      },
+      {
+        "value": "15+",
+        "label": "languages"
+      }
+    ]
+  },
+  {
+    "id": "hp-950-webcam",
+    "section": "work",
+    "type": "product-launch",
+    "title": "HP 950 4K Webcam — Product Sizzle",
+    "summary": "A product sizzle video for the launch of the HP 950 4K Webcam.",
+    "roles": [
+      "Team Lead — Motion Design"
+    ],
+    "cover": "youtube:iMMrEZv83co",
+    "body": [
+      "A product sizzle video for the launch of the HP 950 4K Webcam."
+    ],
+    "sections": [
+      {
+        "title": "Film",
+        "layout": "wide",
+        "media": [
+          "youtube:iMMrEZv83co"
+        ]
+      }
+    ],
+    "client": "HP",
+    "featured": true
+  },
+  {
+    "id": "china-studio-anniversary",
+    "section": "work",
+    "type": "brand-film",
+    "title": "China Studio Anniversary Film",
+    "summary": "A celebratory film for the first anniversary of the Beijing studio, rooted in local culture and custom illustration.",
+    "roles": [
+      "Concept",
+      "Team Lead — Illustration & Animation"
+    ],
+    "cover": "youtube:T4JtbirRIC8",
+    "body": [
+      "Created to celebrate the first anniversary of the Beijing studio, this film integrates local cultural elements and custom illustrations to build a visually distinct and meaningful narrative. The focus was on creating a celebratory piece that felt rooted in place while remaining consistent with the studio’s visual language."
+    ],
+    "sections": [
+      {
+        "title": "Film",
+        "layout": "wide",
+        "media": [
+          "youtube:T4JtbirRIC8"
+        ]
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "go-beyond-sustainability",
+    "section": "work",
+    "type": "campaign",
+    "title": "Go Beyond — Sustainability Campaign",
+    "summary": "Complex sustainability narratives translated into a cohesive visual system designed to scale across regions.",
+    "roles": [
+      "Creative Producer",
+      "Team Lead — Motion & Design"
+    ],
+    "cover": "work/go-beyond.jpg",
+    "body": [
+      "The “Go Beyond” campaign translated complex sustainability narratives into a cohesive visual system designed to scale across regions."
+    ],
+    "sections": [
+      {
+        "title": "Film",
+        "layout": "wide",
+        "media": [
+          "youtube:7t_RhgV8Rqw"
+        ]
+      }
+    ],
+    "client": "HP",
+    "featured": true,
+    "links": [
+      {
+        "label": "Watch more",
+        "url": "https://drive.google.com/drive/folders/1qzJQ2jh2V5He7bjj-ZeQV9GoBNt7RCJ_?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "id": "hp-spectre",
+    "section": "work",
+    "type": "product-launch",
+    "title": "HP Spectre Product Film",
+    "summary": "A product launch film for the HP Spectre series of laptops.",
+    "roles": [
+      "Creative Producer",
+      "Team Lead — Motion & Design"
+    ],
+    "cover": "work/hp-spectre.jpg",
+    "body": [
+      "Created a product launch film for the HP Spectre series of laptops in 2023."
+    ],
+    "sections": [
+      {
+        "title": "Film",
+        "layout": "wide",
+        "media": [
+          "youtube:-8gjzMxysqE"
+        ]
+      }
+    ],
+    "client": "HP",
+    "year": "2023"
+  },
+  {
+    "id": "hp-envy",
+    "section": "work",
+    "type": "product-launch",
+    "title": "HP Envy Series Launch",
+    "summary": "Product launch film for the HP Envy series.",
+    "roles": [
+      "Motion Design"
+    ],
+    "cover": "youtube:Mw0xKD4bAtQ",
+    "body": [
+      "Product launch film for the HP Envy series."
+    ],
+    "sections": [
+      {
+        "title": "Film",
+        "layout": "wide",
+        "media": [
+          "youtube:Mw0xKD4bAtQ"
+        ]
+      }
+    ],
+    "client": "HP"
+  },
+  {
+    "id": "hp-envy-x360",
+    "section": "work",
+    "type": "product-launch",
+    "title": "HP Envy x360 Launch",
+    "summary": "Product launch film for the HP Envy x360.",
+    "roles": [
+      "Motion Design"
+    ],
+    "cover": "youtube:0qFPhe2NbIc",
+    "body": [
+      "Product launch film for the HP Envy x360."
+    ],
+    "sections": [
+      {
+        "title": "Film",
+        "layout": "wide",
+        "media": [
+          "youtube:0qFPhe2NbIc"
+        ]
+      }
+    ],
+    "client": "HP"
+  },
+  {
+    "id": "hp-monitors",
+    "section": "work",
+    "type": "content-series",
+    "title": "HP Conferencing Monitors",
+    "summary": "A series of videos for HP’s most advanced line-up of conferencing monitors.",
+    "roles": [
+      "Creative Producer",
+      "Team Lead — Motion & Design"
+    ],
+    "cover": "work/hp-monitors.jpg",
+    "body": [
+      "A series of videos for HP’s most advanced line-up of conferencing monitors."
+    ],
+    "sections": [
+      {
+        "title": "Film",
+        "layout": "wide",
+        "media": [
+          "youtube:uXSZrK5MYjo"
+        ]
+      }
+    ],
+    "client": "HP",
+    "links": [
+      {
+        "label": "Watch more",
+        "url": "https://drive.google.com/drive/folders/1Y7Q_MvlhUsft3zZ4fbuTgpfxLrP9ayaU?usp=sharing"
+      }
+    ]
+  },
+  {
+    "id": "hp-accessories",
+    "section": "work",
+    "type": "content-series",
+    "title": "HP Accessories",
+    "summary": "10+ films for a range of HP accessories.",
+    "roles": [
+      "Creative Producer",
+      "Lead — Motion & Design"
+    ],
+    "cover": "work/hp-accessories.jpg",
+    "body": [
+      "10+ films for a range of HP accessories."
+    ],
+    "sections": [
+      {
+        "title": "Film",
+        "layout": "wide",
+        "media": [
+          "youtube:40UzxKEI98E"
+        ]
+      }
+    ],
+    "client": "HP",
+    "stats": [
+      {
+        "value": "10+",
+        "label": "films"
+      }
+    ],
+    "links": [
+      {
+        "label": "Watch more",
+        "url": "https://drive.google.com/drive/folders/1WIUAQhMN6IiUVZUyZBGiIdO4F4t3CNMf?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "id": "bps-intel",
+    "section": "work",
+    "type": "content-series",
+    "title": "BPS with Intel",
+    "summary": "50+ feature videos for the latest line-up of Intel laptops.",
+    "roles": [
+      "Creative Producer",
+      "Team Lead — Motion & Design"
+    ],
+    "cover": "work/bps-intel.jpg",
+    "body": [
+      "50+ feature videos for the latest line-up of Intel laptops."
+    ],
+    "sections": [],
+    "client": "Intel",
+    "stats": [
+      {
+        "value": "50+",
+        "label": "feature videos"
+      }
+    ],
+    "links": [
+      {
+        "label": "Watch the series",
+        "url": "https://drive.google.com/drive/folders/1hAY8ttUhmJ22uLMZ1V_rlxsUNdRgvAD-?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "id": "greater-asia-recap",
+    "section": "work",
+    "type": "content-series",
+    "title": "Greater Asia — 2022 Recap",
+    "summary": "A compilation of selected work created for Greater Asia throughout 2022.",
+    "roles": [
+      "Creative Producer",
+      "Concept",
+      "Team Lead — Design & Animation"
+    ],
+    "cover": "work/greater-asia.jpg",
+    "body": [
+      "A compilation of selected work created for Greater Asia throughout 2022."
+    ],
+    "sections": [
+      {
+        "title": "Film",
+        "layout": "wide",
+        "media": [
+          "youtube:pNvbwG1y8Wk"
+        ]
+      }
+    ],
+    "client": "HP",
+    "year": "2022"
+  }
+]
