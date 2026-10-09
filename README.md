@@ -92,11 +92,27 @@ To add an accent: add the two `[data-accent='name']` rules in `base.css`, then a
 `{ id: 'name', label: 'Name', swatch: '#hex' }` to `ACCENTS` in `src/core/theme.js` and the id to the
 list in the small inline `<script>` at the top of each `*.html` page.
 
-## Deploy
+## Deploy (GitHub Pages → ashmotv.site)
 
-`dist/` is a plain static site with relative paths: upload it to any host (Netlify, Vercel,
-GitHub Pages, cPanel/FTP) — it also works from a sub-folder.
-For Netlify/Vercel: build command `npm run build`, output directory `dist`.
+The repo `AshmoTV/site` publishes automatically: **every push to `dev` builds the site and deploys it to
+https://ashmotv.site** (workflow: `.github/workflows/deploy.yml`, ~1 minute). `dev` is the default branch;
+the previous Mobirise site is preserved untouched on `main`.
+
+```bash
+git add -A
+git commit -m "Add new LoRA"
+git push
+```
+
+Watch a deploy: repo → **Actions** tab (or `gh run watch`).
+
+**Roll back to the old Mobirise site** (instant, keeps the domain):
+```bash
+gh api -X PUT repos/AshmoTV/site/pages -f build_type=legacy -f "source[branch]=main" -f "source[path]=/"
+```
+Switch back to the new site with `gh api -X PUT repos/AshmoTV/site/pages -f build_type=workflow`.
+
+Other hosts: `dist/` is a plain static site with relative paths (works on Netlify, Vercel, cPanel/FTP, sub-folders).
 Commit `public/media/` (the converted files); `media-src/` (originals) is git-ignored.
 
 ## Structure
